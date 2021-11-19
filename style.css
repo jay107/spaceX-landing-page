@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+}
+
+.header #myVideo{
+    position: absolute;
+   width: 100%;
+    top: -100px;
+    left: 0;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Acme', cursive;
+}
+
+.header-nav a svg{
+    font-size: 25px;
+    width: 200px;
+    fill: white !important;
+    margin: 40px 0px;
+}
+
+.header-nav ul{
+    list-style: none;
+    /* margin-right: 350px; */
+    margin-top: 30px;
+}
+.header-nav ul li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 14px;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid inherit;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-nav ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.header-nav .last-menu{
+    margin: 40px;
+}
+
+.last-menu a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.last-menu i{
+    font-size: 20px;
+}
+
+.header-writes{
+    position: fixed;
+    top: 44%;
+    left: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    line-height: 1.4;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    height: 100vh;
+}
+
+.header-writes h6{
+    font-size: 23px;
+
+}
+
+.header-writes p{
+    font-size: 19px;
+}
+
+.header-writes button{
+    padding: 20px 45px;
+    margin-top: 30px;
+    color: white;
+    font-size: 12px;
+    background: transparent;
+    border: 2px solid white;
+}
+
+/* first sectionk */
+
+.first-section{
+    background-image: url("./images/HP_CRS23_causeway_DSC_7027_Desktop.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
